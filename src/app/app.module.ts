@@ -74,14 +74,10 @@ const routes: Routes = [
   { path: 'alltournaments', 
     component: AllTournamentsComponent 
   },
-  
   {
     path:'tournament/:id',
     component: TournamentBracketComponent
   },
-
-
-
   {
     path:'user/:id',
     component: UserProfileComponent
